@@ -61,7 +61,7 @@ const Header = () => {
       </nav>
       
       <div className="flex items-center gap-4">
-        <button className="text-black text-lg font-bold relative hover:text-[#49887B] transition-colors">
+        <button className="text-black text-lg font-bold relative hover:text-[#49887B] transition-colors whitespace-nowrap">
           Sign In
         </button>
         <button className="flex w-[195px] h-[49px] justify-center items-center gap-2.5 relative rounded-[50px] bg-[#49887B] text-white hover:bg-[#3a6b5f] transition-colors max-sm:w-[150px] max-sm:h-10">
