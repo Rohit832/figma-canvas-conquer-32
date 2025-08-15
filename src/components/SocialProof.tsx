@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Check } from 'lucide-react';
 
@@ -30,7 +31,7 @@ const SocialProof = () => {
         </svg>
       </div>
       
-      <div className="flex h-[43px] items-center gap-[9px] self-stretch relative pl-[15px] pr-2.5 py-0 rounded-[50px] border border-social-proof-border" style={{background: 'var(--social-proof-gradient)'}}>
+      <div className="flex h-[43px] items-center gap-[9px] self-stretch relative pl-[15px] pr-2.5 py-0 rounded-[50px]" style={{background: 'var(--social-proof-gradient)'}}>
         <div className="flex items-center justify-center w-4 h-4 rounded-full bg-[#64867E]">
           <Check className="w-3 h-3 text-white" />
         </div>
