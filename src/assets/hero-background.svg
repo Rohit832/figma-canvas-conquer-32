@@ -19,38 +19,45 @@
       <stop offset="0%" stop-color="#49887B" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#49887B" stop-opacity="0"/>
     </radialGradient>
+    
+    <!-- Clip path for triangle cut -->
+    <clipPath id="triangleCut">
+      <path d="M0,0 L3024,0 L3024,1848 L1512,2048 L0,1848 Z"/>
+    </clipPath>
   </defs>
   
-  <!-- Main background -->
-  <rect width="3024" height="2048" fill="url(#mainGradient)"/>
-  
-  <!-- Overlay gradient -->
-  <rect width="3024" height="2048" fill="url(#overlayGradient)"/>
-  
-  <!-- Subtle geometric patterns -->
-  <g opacity="0.6">
-    <!-- Large circles -->
-    <circle cx="2400" cy="300" r="150" fill="url(#patternGradient)"/>
-    <circle cx="200" cy="800" r="120" fill="url(#patternGradient)"/>
-    <circle cx="2800" cy="1400" r="180" fill="url(#patternGradient)"/>
-    <circle cx="600" cy="1600" r="100" fill="url(#patternGradient)"/>
+  <g clip-path="url(#triangleCut)">
+    <!-- Main background -->
+    <rect width="3024" height="2048" fill="url(#mainGradient)"/>
     
-    <!-- Medium circles -->
-    <circle cx="1800" cy="600" r="80" fill="#49887B" fill-opacity="0.015"/>
-    <circle cx="400" cy="400" r="60" fill="#49887B" fill-opacity="0.02"/>
-    <circle cx="2600" cy="1000" r="90" fill="#49887B" fill-opacity="0.018"/>
-    <circle cx="1000" cy="1200" r="70" fill="#49887B" fill-opacity="0.025"/>
+    <!-- Overlay gradient -->
+    <rect width="3024" height="2048" fill="url(#overlayGradient)"/>
     
-    <!-- Small decorative elements -->
-    <circle cx="1500" cy="200" r="25" fill="#64867E" fill-opacity="0.03"/>
-    <circle cx="2200" cy="800" r="30" fill="#64867E" fill-opacity="0.025"/>
-    <circle cx="800" cy="600" r="20" fill="#64867E" fill-opacity="0.035"/>
-    <circle cx="2000" cy="1600" r="35" fill="#64867E" fill-opacity="0.028"/>
-  </g>
-  
-  <!-- Subtle wave patterns -->
-  <g opacity="0.4">
-    <path d="M0,1200 Q756,1100 1512,1200 T3024,1200 L3024,2048 L0,2048 Z" fill="#49887B" fill-opacity="0.01"/>
-    <path d="M0,1400 Q756,1300 1512,1400 T3024,1400 L3024,2048 L0,2048 Z" fill="#64867E" fill-opacity="0.015"/>
+    <!-- Subtle geometric patterns -->
+    <g opacity="0.6">
+      <!-- Large circles -->
+      <circle cx="2400" cy="300" r="150" fill="url(#patternGradient)"/>
+      <circle cx="200" cy="800" r="120" fill="url(#patternGradient)"/>
+      <circle cx="2800" cy="1400" r="180" fill="url(#patternGradient)"/>
+      <circle cx="600" cy="1600" r="100" fill="url(#patternGradient)"/>
+      
+      <!-- Medium circles -->
+      <circle cx="1800" cy="600" r="80" fill="#49887B" fill-opacity="0.015"/>
+      <circle cx="400" cy="400" r="60" fill="#49887B" fill-opacity="0.02"/>
+      <circle cx="2600" cy="1000" r="90" fill="#49887B" fill-opacity="0.018"/>
+      <circle cx="1000" cy="1200" r="70" fill="#49887B" fill-opacity="0.025"/>
+      
+      <!-- Small decorative elements -->
+      <circle cx="1500" cy="200" r="25" fill="#64867E" fill-opacity="0.03"/>
+      <circle cx="2200" cy="800" r="30" fill="#64867E" fill-opacity="0.025"/>
+      <circle cx="800" cy="600" r="20" fill="#64867E" fill-opacity="0.035"/>
+      <circle cx="2000" cy="1600" r="35" fill="#64867E" fill-opacity="0.028"/>
+    </g>
+    
+    <!-- Subtle wave patterns -->
+    <g opacity="0.4">
+      <path d="M0,1200 Q756,1100 1512,1200 T3024,1200 L3024,1848 L1512,2048 L0,1848 Z" fill="#49887B" fill-opacity="0.01"/>
+      <path d="M0,1400 Q756,1300 1512,1400 T3024,1400 L3024,1848 L1512,2048 L0,1848 Z" fill="#64867E" fill-opacity="0.015"/>
+    </g>
   </g>
 </svg>
