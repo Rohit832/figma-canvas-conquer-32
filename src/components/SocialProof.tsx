@@ -24,9 +24,9 @@ const SocialProof = () => {
               <image href="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" x="0" y="0" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>
             </pattern>
           </defs>
-          <circle cx="38.5" cy="60" r="38.5" fill="url(#img1)" />
-          <circle cx="94.5" cy="60" r="38.5" fill="url(#img2)" />
-          <circle cx="151.5" cy="60" r="38.5" fill="url(#img3)" />
+          <circle cx="35" cy="60" r="35" fill="url(#img1)" />
+          <circle cx="95" cy="60" r="35" fill="url(#img2)" />
+          <circle cx="155" cy="60" r="35" fill="url(#img3)" />
         </svg>
       </div>
       
