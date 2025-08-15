@@ -13,9 +13,20 @@ const SocialProof = () => {
           xmlns="http://www.w3.org/2000/svg"
           className="w-[190px] h-[77px] relative"
         >
-          <circle cx="38.5" cy="38.5" r="38.5" fill="#4A90E2" />
-          <circle cx="94.5" cy="38.5" r="38.5" fill="#7ED321" />
-          <circle cx="151.5" cy="38.5" r="38.5" fill="#F5A623" />
+          <defs>
+            <pattern id="img1" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <image href="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" x="0" y="0" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>
+            </pattern>
+            <pattern id="img2" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <image href="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" x="0" y="0" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>
+            </pattern>
+            <pattern id="img3" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <image href="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" x="0" y="0" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>
+            </pattern>
+          </defs>
+          <circle cx="38.5" cy="38.5" r="38.5" fill="url(#img1)" />
+          <circle cx="94.5" cy="38.5" r="38.5" fill="url(#img2)" />
+          <circle cx="151.5" cy="38.5" r="38.5" fill="url(#img3)" />
         </svg>
       </div>
       
