@@ -8,7 +8,7 @@ const Index = () => {
       <div 
         className="fixed inset-0 w-full h-screen z-[-1]"
         style={{
-          background: 'linear-gradient(180deg, #6ABFB1 0%, #GAB6FB1 100%)'
+          background: 'linear-gradient(180deg, #6ABFB1 0%, #6AB6FB 100%)'
         }}
       />
       
