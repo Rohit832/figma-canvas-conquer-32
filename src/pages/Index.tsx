@@ -8,7 +8,7 @@ const Index = () => {
       <div 
         className="flex w-full h-full justify-center items-center absolute z-[-1] object-cover left-0 top-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://api.builder.io/api/v1/image/assets/TEMP/a0e6814fc503bdbfca8ac299e13b3b71d6274415?width=3024)'
+          backgroundImage: 'url(https://api.builder.io/api/v1/image/assets/TEMP/a0e6814fc503bdbfca8ac299e13b3b71d6274415?width=3024&height=2048)'
         }}
         role="img"
         aria-label="Background image showing a peaceful financial wellness environment"
