@@ -61,6 +61,10 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'social-proof': {
+					bg: 'hsl(var(--social-proof-bg))',
+					border: 'hsl(var(--social-proof-border))'
 				}
 			},
 			borderRadius: {
