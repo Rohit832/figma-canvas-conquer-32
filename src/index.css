@@ -57,6 +57,7 @@ All colors MUST be HSL.
     /* Custom colors for social proof */
     --social-proof-bg: 30 29% 92%; /* F1E6D8 */
     --social-proof-border: 0 0% 100%; /* FFFFFF */
+    --social-proof-gradient: linear-gradient(to right, hsl(30 29% 92%), hsl(0 0% 100%)); /* F1E6D8 to FFFFFF */
   }
 
   .dark {
