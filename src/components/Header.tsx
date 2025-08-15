@@ -36,10 +36,25 @@ const Header = () => {
             />
           </button>
           {isLanguageOpen && (
-            <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-md shadow-lg z-10">
-              <button className="block w-full px-4 py-2 text-left hover:bg-gray-100">EN</button>
-              <button className="block w-full px-4 py-2 text-left hover:bg-gray-100">ES</button>
-              <button className="block w-full px-4 py-2 text-left hover:bg-gray-100">FR</button>
+            <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg z-50 min-w-[80px]">
+              <button 
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 transition-colors text-black"
+                onClick={() => setIsLanguageOpen(false)}
+              >
+                EN
+              </button>
+              <button 
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 transition-colors text-black"
+                onClick={() => setIsLanguageOpen(false)}
+              >
+                ES
+              </button>
+              <button 
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 transition-colors text-black"
+                onClick={() => setIsLanguageOpen(false)}
+              >
+                FR
+              </button>
             </div>
           )}
         </div>
