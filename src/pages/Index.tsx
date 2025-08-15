@@ -15,7 +15,7 @@ const Index = () => {
       />
       
       <div className="flex w-full max-w-[1232px] mx-auto flex-col gap-[60px] relative z-[1] max-md:gap-[40px] max-sm:gap-8">
-        <div className="w-full flex justify-end max-sm:justify-center">
+        <div className="w-full flex justify-end max-md:justify-center">
           <Header />
         </div>
         
