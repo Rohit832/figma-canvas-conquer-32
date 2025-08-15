@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className="flex w-screen min-h-screen flex-col items-start gap-2.5 relative overflow-x-hidden px-[140px] py-[23px] max-md:px-10 max-md:py-5 max-sm:px-5 max-sm:py-4">
       <div 
-        className="flex w-full h-[180vh] md:h-[250vh] lg:h-[200vh] justify-center items-center absolute z-[-1] left-0 top-0"
+        className="fixed inset-0 w-full h-screen z-[-1]"
         style={{
           background: 'linear-gradient(180deg, #6ABFB1 0%, #GAB6FB1 100%)'
         }}
