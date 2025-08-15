@@ -37,7 +37,7 @@ const SocialProof = () => {
         </div>
         <div className="w-[327px] h-[33px] text-[#344947] text-2xl relative flex items-center">
           <span className="font-bold">1043+</span>
-          <span className="font-normal ml-1">people already joined</span>
+          <span className="font-normal ml-1 text-sm">people already joined</span>
         </div>
       </div>
     </div>
