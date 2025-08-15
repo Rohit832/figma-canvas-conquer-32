@@ -30,7 +30,7 @@ const SocialProof = () => {
         </svg>
       </div>
       
-      <div className="flex h-[43px] items-center gap-[9px] self-stretch relative pl-[15px] pr-2.5 py-0 rounded-[50px]">
+      <div className="flex h-[43px] items-center gap-[9px] self-stretch relative pl-[15px] pr-2.5 py-0 rounded-[50px] bg-white/20 backdrop-blur-sm border border-white/30">
         <div className="flex items-center justify-center w-4 h-4 rounded-full bg-[#64867E]">
           <Check className="w-3 h-3 text-white" />
         </div>
