@@ -23,7 +23,7 @@ const HeroSection = () => {
         <img
           src="https://api.builder.io/api/v1/image/assets/TEMP/04a59cac4033703d8cbb30c61cfefcf69a00d403?width=1204"
           alt="Financial wellness dashboard showing various tools and features for employee financial health"
-          className="w-full max-w-[602px] h-auto object-cover rounded-[41px] max-lg:max-w-[500px] max-sm:max-w-[400px] max-sm:rounded-[20px]"
+          className="w-[602px] h-[634px] object-cover rounded-[41px] max-lg:max-w-[500px] max-sm:max-w-[400px] max-sm:rounded-[20px]"
         />
       </div>
     </section>
