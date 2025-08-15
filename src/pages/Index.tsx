@@ -14,10 +14,12 @@ const Index = () => {
         aria-label="Background image showing a peaceful financial wellness environment"
       />
       
-      <div className="flex w-full max-w-[1232px] mx-auto flex-col items-end gap-[117px] relative z-[1] max-md:gap-[60px] max-sm:gap-10 max-sm:items-center">
-        <Header />
+      <div className="flex w-full max-w-[1232px] mx-auto flex-col gap-[60px] relative z-[1] max-md:gap-[40px] max-sm:gap-8">
+        <div className="w-full flex justify-end max-sm:justify-center">
+          <Header />
+        </div>
         
-        <main>
+        <main className="w-full">
           <HeroSection />
         </main>
       </div>
