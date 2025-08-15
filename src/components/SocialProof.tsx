@@ -4,7 +4,7 @@ import { Check } from 'lucide-react';
 
 const SocialProof = () => {
   return (
-    <div className="flex w-[377px] flex-col items-start gap-[34px] relative max-md:w-full max-sm:items-center">
+    <div className="flex w-[280px] flex-col items-start gap-4 relative max-md:w-[250px] max-sm:w-[220px] max-sm:items-center">
       <div className="relative">
         <svg 
           width="190" 
