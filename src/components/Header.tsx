@@ -6,7 +6,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="flex items-center gap-[45px] relative max-md:flex-wrap max-md:gap-5 max-sm:w-full max-sm:justify-between max-sm:flex-wrap">
+    <header className="flex items-center gap-[45px] relative max-md:flex-wrap max-md:gap-5 max-sm:w-full max-sm:justify-between max-sm:flex-wrap sm:justify-center md:justify-start">
       <nav className="flex items-center gap-[34.9px] relative max-md:gap-5 max-sm:hidden">
         <div className="flex items-center gap-[29.589px] relative max-md:gap-5 max-sm:hidden">
           <a 
