@@ -78,20 +78,31 @@ const Header = () => {
       </button>
 
       {isMobileMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-20 max-sm:block hidden">
-          <nav className="flex flex-col p-4 gap-4">
-            <a href="#about" className="text-black text-lg font-normal hover:text-[#49887B] transition-colors">
-              About
+        <div className="absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 shadow-xl z-20 max-sm:block hidden animate-fade-in">
+          <nav className="flex flex-col p-6 gap-6 bg-gradient-to-b from-white/90 to-gray-50/90">
+            <a 
+              href="#about" 
+              className="text-black text-lg font-medium hover:text-[#49887B] transition-all duration-300 hover:translate-x-2 hover:font-semibold relative group"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <span className="relative z-10">About</span>
+              <div className="absolute inset-0 bg-[#49887B]/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 origin-left"></div>
             </a>
-            <a href="#contact" className="text-black text-lg font-normal hover:text-[#49887B] transition-colors">
-              Contact
+            <a 
+              href="#contact" 
+              className="text-black text-lg font-medium hover:text-[#49887B] transition-all duration-300 hover:translate-x-2 hover:font-semibold relative group"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <span className="relative z-10">Contact</span>
+              <div className="absolute inset-0 bg-[#49887B]/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 origin-left"></div>
             </a>
-            <div className="flex items-center gap-2">
-              <span className="text-black text-lg font-normal">Language:</span>
-              <select className="border border-gray-300 rounded px-2 py-1">
-                <option value="en">EN</option>
-                <option value="es">ES</option>
-                <option value="fr">FR</option>
+            <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-2"></div>
+            <div className="flex items-center gap-3 bg-white/50 rounded-lg p-3 border border-gray-200/50">
+              <span className="text-[#49887B] text-lg font-semibold">Language:</span>
+              <select className="border border-gray-300 rounded-lg px-3 py-2 bg-white hover:border-[#49887B] focus:border-[#49887B] focus:outline-none transition-colors duration-200 text-black">
+                <option value="en">🇺🇸 EN</option>
+                <option value="es">🇪🇸 ES</option>
+                <option value="fr">🇫🇷 FR</option>
               </select>
             </div>
           </nav>
