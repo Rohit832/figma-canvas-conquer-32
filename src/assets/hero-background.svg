@@ -1,4 +1,4 @@
-<svg width="3024" height="2048" viewBox="0 0 3024 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="3024" height="3000" viewBox="0 0 3024 3000" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Main gradient background -->
     <radialGradient id="mainGradient" cx="50%" cy="40%" r="80%">
@@ -22,16 +22,16 @@
     
     <!-- Clip path for triangle cut -->
     <clipPath id="triangleCut">
-      <path d="M0,0 L3024,0 L3024,1848 L1512,2048 L0,1848 Z"/>
+      <path d="M0,0 L3024,0 L3024,2800 L1512,3000 L0,2800 Z"/>
     </clipPath>
   </defs>
   
   <g clip-path="url(#triangleCut)">
     <!-- Main background -->
-    <rect width="3024" height="2048" fill="url(#mainGradient)"/>
+    <rect width="3024" height="3000" fill="url(#mainGradient)"/>
     
     <!-- Overlay gradient -->
-    <rect width="3024" height="2048" fill="url(#overlayGradient)"/>
+    <rect width="3024" height="3000" fill="url(#overlayGradient)"/>
     
     <!-- Subtle geometric patterns -->
     <g opacity="0.6">
@@ -56,8 +56,8 @@
     
     <!-- Subtle wave patterns -->
     <g opacity="0.4">
-      <path d="M0,1200 Q756,1100 1512,1200 T3024,1200 L3024,1848 L1512,2048 L0,1848 Z" fill="#49887B" fill-opacity="0.01"/>
-      <path d="M0,1400 Q756,1300 1512,1400 T3024,1400 L3024,1848 L1512,2048 L0,1848 Z" fill="#64867E" fill-opacity="0.015"/>
+      <path d="M0,1200 Q756,1100 1512,1200 T3024,1200 L3024,2800 L1512,3000 L0,2800 Z" fill="#49887B" fill-opacity="0.01"/>
+      <path d="M0,1400 Q756,1300 1512,1400 T3024,1400 L3024,2800 L1512,3000 L0,2800 Z" fill="#64867E" fill-opacity="0.015"/>
     </g>
   </g>
 </svg>
